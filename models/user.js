@@ -4,8 +4,8 @@ var Schema = mongoose.Schema;
 
 /* The user schema attributes / characteristics / fields */
 
-var UserSchema = new.mongoose.Schema ({
-    email: { type: String. unique: true, lowercase: true},
+var UserSchema = new Schema ({
+    email: { type: String, unique: true, lowercase: true},
     password: String, 
     
     profile: {
